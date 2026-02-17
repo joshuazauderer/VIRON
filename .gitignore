@@ -1,0 +1,18 @@
+# --- Build outputs (generated artifacts) ---
+build/
+
+# --- Draft scratch space (optional) ---
+drafts/
+
+# --- macOS noise ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Editor/IDE noise ---
+.vscode/
+.idea/
+
+# --- Temporary/export junk (keep your exports folder if you use it intentionally) ---
+*.tmp
+*.bak

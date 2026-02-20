@@ -15,6 +15,16 @@ This chapter defines a deliberate rollout.
 
 # Phase 1 — Days 1–30: Structural Installation
 
+### [UI MOCKUP (CH15-MU01): Initial Setup State]
+
+**What this mockup should show:**
+A clean starting state displaying:
+
+- Canonical Notes folders created (Projects/Templates/Archive/Library)
+- Projects folder with 1–2 simple project notes (not 10)
+- Reminders lists created (3 project lists + Personal), lightly populated
+- No Smart Folders shown yet
+
 Focus: Build architecture. Do not optimize.
 
 ## Step 1 — Install Folder Structure
@@ -117,7 +127,7 @@ Status tags.
 
 Keep them minimal.
 
-Create 3–5 Smart Folders only.
+In Chapter 11, you may create 3–5 Smart Folders (Chapter 11)—sparingly.
 
 Resist expansion.
 
@@ -251,7 +261,7 @@ Do not:
 
 - Overbuild automation early.
 - Add excessive tags.
-- Create complex Smart Folder hierarchies.
+- Create complex Smart Folder (Chapter 11) hierarchies.
 - Expand beyond five projects.
 - Skip Weekly Review.
 

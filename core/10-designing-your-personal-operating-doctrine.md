@@ -76,24 +76,15 @@ It should contain:
 It becomes your internal constitution.
 
 ---
+### [UI MOCKUP (CH10-MU01): Personal Doctrine Note]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+An open note titled “Operating Doctrine” displaying:
 
-**Mockup 10.1 — Library Note: Personal Operating Doctrine**
-
-Display:
-- Library folder open
-- Note titled “Personal Operating Doctrine”
-- Sections visible:
-  - Constraints
-  - Execution Rules
-  - Decision Filters
-  - Energy Principles
-
-Purpose:
-Show doctrine as a first-class Library entry.
-
----
+- Core Principles
+- Decision Filters
+- Weekly Review Rules
+- Clear, structured formatting (no task checkboxes)
 
 # 3. Constraints as Strategic Tools
 

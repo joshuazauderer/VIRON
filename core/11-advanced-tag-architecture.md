@@ -75,20 +75,15 @@ All #decision
 These cut across projects without reorganizing folders.
 
 ---
+### [UI MOCKUP (CH11-MU01): Smart Folder Creation Modal]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+The Smart Folder creation dialog displaying:
 
-**Mockup 11.1 — Smart Folder: All #task**
-
-Display:
-- Smart Folder configuration screen
-- Filter rule: Tag is #task
-- Results from multiple projects visible
-
-Purpose:
-Show cross-project operational visibility.
-
----
+- Tag selection interface
+- Multiple tags selected
+- The toggle between “All” and “Any”
+- Clear configuration state
 
 # 4. Thematic Tags (Knowledge Classification)
 
@@ -230,20 +225,14 @@ Smart Folders are dashboards,
 not replacements for structure.
 
 ---
+### [UI MOCKUP (CH11-MU02): Smart Folder Result View]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+A Smart Folder open displaying:
 
-**Mockup 11.2 — Smart Folder List in Sidebar**
-
-Display:
-- Smart Folder section in Notes sidebar
-- 4–5 Smart Folders only
-- Clean minimal list
-
-Purpose:
-Show restraint and clarity.
-
----
+- A filtered list of notes
+- Visible tag indicators on each note (if applicable)
+- A clean, uncluttered result set
 
 # 10. Tags vs Folders — The Boundary Rule
 

@@ -63,7 +63,7 @@ This model centralizes all execution into one primary list.
 
 Reminders Lists:
 
-- Inbox  
+- Personal  
 - Next  
 - Waiting  
 - Someday (optional)
@@ -85,7 +85,7 @@ Example task titles:
 **What this mockup should show:**
 
 - Sidebar in Reminders
-- One Inbox
+- One Personal
 - One main list labeled “Next”
 - Clean, minimal structure
 - Tasks showing project prefix in brackets
@@ -120,14 +120,14 @@ This model creates a dedicated list per active project.
 
 Reminders Lists:
 
-- Inbox
+- Personal
 - Book Launch
 - Fitness
 - Certification
 
 Each active project gets its own list.
 
-Inbox remains a capture buffer only.
+Personal remains a capture buffer only.
 
 ---
 
@@ -136,7 +136,7 @@ Inbox remains a capture buffer only.
 **What this mockup should show:**
 
 - Reminders sidebar
-- Inbox at top
+- Personal at top
 - Three project lists beneath
 - Each list containing 3–5 tasks
 - Minimal overdue clutter
@@ -167,7 +167,7 @@ Show visual containment and separation.
 
 If managing fewer than five active projects:
 
-Use Project-Based Lists + one Inbox.
+Use Project-Based Lists + one Personal.
 
 Why?
 
@@ -186,29 +186,29 @@ The project-based model:
 
 ---
 
-## The Inbox Rule
+## The Personal Rule
 
-Inbox is not a workspace.
+Personal is not a workspace.
 
-Inbox is a capture buffer.
+Personal is a capture buffer.
 
-Everything enters Inbox first:
+Everything enters Personal first:
 
 - Quick Capture tasks
 - Shared tasks from Notes
 - Tasks added via Siri
 
-Inbox must be cleared daily.
+Personal must be cleared daily.
 
-If Inbox contains 30 tasks at week’s end, the system is not being maintained.
+If Personal contains 30 tasks at week’s end, the system is not being maintained.
 
 ---
 
-### [UI MOCKUP: Inbox Processing View]
+### [UI MOCKUP: Personal Processing View]
 
 **What this mockup should show:**
 
-- Inbox selected
+- Personal selected
 - 4–6 newly captured tasks
 - No due dates yet
 - Clean interface
@@ -223,7 +223,7 @@ Demonstrate raw capture before classification.
 Each morning:
 
 1. Open Reminders → Today.
-2. Review Inbox.
+2. Review Personal.
 3. Move each task to its project list.
 4. Select 3–5 tasks only for the day.
 5. Optionally assign time blocks in Calendar.
@@ -437,7 +437,7 @@ By the end of this chapter, you have:
 
 - Chosen a task architecture.
 - Established a single source of truth.
-- Defined Inbox behavior.
+- Defined Personal behavior.
 - Connected Notes to Reminders.
 - Connected Reminders to Calendar.
 
@@ -452,3 +452,22 @@ In the next chapter, we formalize automation:
 Shortcuts.
 
 Where capture becomes frictionless.
+
+
+---
+
+## Canonical Reminders Model
+
+All tasks live in Reminders.
+
+Sidebar must show:
+- Today
+- Scheduled
+- All
+- Completed
+- Project Lists (max five)
+- Personal
+
+No Inbox list.
+
+Today view must not exceed five tasks (except Chapter 9 failure example).

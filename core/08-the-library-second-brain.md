@@ -70,24 +70,14 @@ If it does not have long-term relevance,
 it does not belong in the Library.
 
 ---
+### [UI MOCKUP (CH08-MU01): Library Folder Structure]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+Apple Notes with the Library folder visible in the sidebar and selected, showing:
 
-**Mockup 8.1 — Library Folder Structure**
-
-Display:
-- 03 – Library folder open
-- List of atomic note titles such as:
-  - “Scope Creep Detection Pattern”
-  - “Value Framing Before Price Increase”
-  - “Async Decision-Making Rule”
-- No clutter
-- Clean titles
-
-Purpose:
-Reinforce clarity and atomicity.
-
----
+- Library folder present alongside Projects/Templates/Archive
+- A calm set of Library notes in the middle column
+- No active project notes inside Library
 
 # 3. The Knowledge Lifecycle
 
@@ -173,27 +163,22 @@ VIRON relies on four retrieval mechanisms:
 1. Search
 2. Clear titles
 3. Tags
-4. Smart Folders
+4. Smart Folders (Chapter 11)
 
 Search is primary.
 Tags are secondary.
 Structure supports both.
 
 ---
+### [UI MOCKUP (CH08-MU02): Refined Knowledge Note]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+An open Library note displaying:
 
-**Mockup 8.2 — Smart Folder for #strategy**
-
-Display:
-- Smart Folder named “All #strategy”
-- Notes from different projects visible
-- Cross-project visibility
-
-Purpose:
-Show thematic knowledge surfacing.
-
----
+- A clear title
+- Distilled principles (no task language)
+- Optional tags (if used)
+- Clean formatting designed for retrieval
 
 # 4. Atomic Notes Without Complexity
 
@@ -360,20 +345,6 @@ the richer the knowledge layer becomes.
 
 And the richer the knowledge layer becomes,
 the fewer mistakes you repeat.
-
----
-
-## [UI MOCKUP PLACEHOLDER]
-
-**Mockup 8.3 — Project Note Referencing Library Entry**
-
-Display:
-- Open project note
-- Inline link to Library note
-- Example: “See: Milestones Must Be Observable”
-
-Purpose:
-Show knowledge feeding live work.
 
 ---
 

@@ -129,21 +129,14 @@ And the answers often exist already.
 This is compounding clarity.
 
 ---
+### [UI MOCKUP (CH13-MU01): Minimal Active Project View]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+Apple Notes with Projects selected showing:
 
-**Mockup 13.1 — Mature Library View**
-
-Display:
-- 50+ refined Library notes
-- Smart Folder “All #decision” populated
-- Clean titles
-- No clutter
-
-Purpose:
-Visually communicate accumulation without chaos.
-
----
+- 2–3 active project notes in the middle column
+- Archive visible and meaningfully populated
+- Calm visual spacing (no clutter)
 
 # 5. Project Velocity in Year Three
 
@@ -302,7 +295,7 @@ Quarterly:
 
 - Revisit tag taxonomy.
 - Revisit doctrine.
-- Review Smart Folders.
+- Review Smart Folders (Chapter 11).
 - Tighten automation.
 
 Evolution prevents stagnation.

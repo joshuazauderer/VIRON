@@ -27,6 +27,15 @@ but with reduction.
 
 You open Reminders → Today.
 
+### [UI MOCKUP (CH06-MU01): Project Note + Matching Reminder List]
+
+**What this mockup should show:**
+Two windows visible:
+
+- A project note open in Notes (showing Objective and Decisions)
+- The corresponding project list open in Reminders
+- Clear conceptual alignment between thinking and tasks
+
 There are twelve available tasks.
 You choose five.
 
@@ -162,6 +171,16 @@ Momentum preserved.
 ---
 
 ## Friday — The Weekly Review
+
+### [UI MOCKUP (CH06-MU02): Weekly Review Session View]
+
+**What this mockup should show:**
+Notes and Reminders visible simultaneously:
+
+- A project moved to Archive
+- Completed tasks cleared
+- Only active projects remaining
+- Clean, uncluttered state
 
 You trigger Start Weekly Review.
 

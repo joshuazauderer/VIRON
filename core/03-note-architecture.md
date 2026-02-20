@@ -137,7 +137,7 @@ They are captured.
 
 This folder should contain:
 
-- One central note called “Idea Inbox”
+- One central note called “Idea Personal”
 - Or individual idea notes (if preferred)
 
 The key principle:
@@ -153,11 +153,11 @@ If your Ideas folder grows endlessly, your Weekly Review is failing.
 
 ---
 
-### [UI MOCKUP: Idea Inbox Note Structure]
+### [UI MOCKUP: Idea Personal Note Structure]
 
 **What this mockup should show:**
 
-- A single note titled “Idea Inbox”
+- A single note titled “Idea Personal”
 - Timestamped idea entries
 - Clear divider lines
 - #idea tags visible
@@ -357,3 +357,17 @@ In the next chapter, we move to the execution layer:
 Reminders.
 
 Where intention becomes commitment.
+
+
+---
+
+## Canonical Apple Notes Model
+
+Apple Notes must show only four top-level folders:
+- Projects
+- Templates
+- Archive
+- Library
+
+Projects are notes, not subfolders by default.
+Maximum five active projects.

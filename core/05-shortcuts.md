@@ -75,7 +75,7 @@ Under “Task”:
 1. Add: Ask for Input (Text)
    Prompt: "Enter task description"
 2. Add: Add Reminder
-   List: Inbox
+   List: Personal (or the matching project list)
 
 All tasks enter the execution layer immediately.
 
@@ -102,35 +102,23 @@ Append structure:
 Every idea is timestamped and centralized.
 
 ---
+### [UI MOCKUP (CH05-MU01): Shortcut Editor — Add to Reminders Flow]
 
-### [UI MOCKUP PLACEHOLDER — Quick Capture Menu]
+**What this mockup should show:**
+The Shortcut editor displaying:
 
-Mockup should show:
+- A minimal sequence of action blocks
+- Clear, linear logic
+- No complex branching
+- No excessive automation steps
+### [UI MOCKUP (CH05-MU02): Share Sheet — Send to Reminders]
 
-- Small modal window
-- Two options: Task | Idea
-- Minimal interface
-- Keyboard shortcut indicator
+**What this mockup should show:**
+A Share Sheet modal displaying:
 
-Purpose:
-Show classification before capture.
-
----
-
-### [UI MOCKUP PLACEHOLDER — Idea Appended to Inbox]
-
-Mockup should show:
-
-- Idea Inbox note
-- Divider lines
-- Timestamp
-- #idea tag
-- Clean formatting
-
-Purpose:
-Visually reinforce chronological capture.
-
----
+- “Add to Reminders” selected
+- A target list selection (project list or Personal)
+- Minimal additional configuration
 
 # 5.2 Extract Tasks from Note (Clarity Accelerator)
 
@@ -159,20 +147,6 @@ Optional advanced version:
 
 ---
 
-### [UI MOCKUP PLACEHOLDER — Highlight Paragraph → Extract Tasks]
-
-Mockup should show:
-
-- Paragraph highlighted inside a project note
-- Shortcut invoked
-- Result list of extracted tasks
-- Clean, grayscale styling
-
-Purpose:
-Demonstrate conversion from thinking to execution.
-
----
-
 # 5.3 Weekly Review Launcher (Ritual Trigger)
 
 The Weekly Review is the stabilizing force of VIRON.
@@ -193,19 +167,6 @@ It is about consistency.
 Assign a keyboard shortcut.
 
 Now your weekly ritual begins with one trigger.
-
----
-
-### [UI MOCKUP PLACEHOLDER — Weekly Review Launch Sequence]
-
-Mockup should show:
-
-- Shortcut being triggered
-- Weekly Review note opening
-- Reminders visible in background
-
-Purpose:
-Reinforce ritual and environment shift.
 
 ---
 

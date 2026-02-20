@@ -83,20 +83,14 @@ AI creates order.
 You retain authority.
 
 ---
+### [UI MOCKUP (CH12-MU01): Structured Note + AI Output]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+An open note displaying:
 
-**Mockup 12.1 — Writing Tools → Ask ChatGPT**
-
-Display:
-- Highlighted text inside a note
-- Writing Tools menu visible
-- Ask ChatGPT option selected
-
-Purpose:
-Show native Apple integration.
-
----
+- A structured section written by the user
+- An AI-generated summary or refinement beneath it
+- Clear separation between human-authored content and AI output
 
 # 4. AI for Task Extraction
 
@@ -174,20 +168,6 @@ You remove fluff.
 You rewrite in your voice.
 
 This accelerates knowledge formation.
-
----
-
-## [UI MOCKUP PLACEHOLDER]
-
-**Mockup 12.2 — Distilling Meeting Notes into Library Entry**
-
-Display:
-- Long meeting note
-- AI response showing 3 distilled principles
-- New Library note created
-
-Purpose:
-Show transition from raw notes to durable knowledge.
 
 ---
 

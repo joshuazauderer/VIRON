@@ -16,6 +16,16 @@ so you can prevent it.
 
 # 1. Failure Mode One — Task Leakage
 
+### [UI MOCKUP (CH09-MU01): Overloaded Reminder List (Anti-Example)]
+
+**What this mockup should show:**
+A Reminders list displaying:
+
+- 10+ visible tasks
+- No narrowing
+- Dense, cluttered appearance
+- Lack of visible prioritization
+
 This is the most common collapse point.
 
 It begins quietly.
@@ -62,6 +72,15 @@ This rule cannot be optional.
 ---
 
 # 2. Failure Mode Two — The Idea Graveyard
+
+### [UI MOCKUP (CH09-MU02): Overcrowded Notes Sidebar (Anti-Example)]
+
+**What this mockup should show:**
+Apple Notes with Projects selected showing:
+
+- 8–10 active project notes visible in the middle column
+- No visible archiving behavior
+- Visual clutter that signals sprawl
 
 The Idea Inbox grows.
 

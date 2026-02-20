@@ -67,22 +67,14 @@ Did you do it?
 That belongs elsewhere.
 
 ---
+### [UI MOCKUP (CH07-MU01): Note → Task → Calendar Flow]
 
-## [UI MOCKUP PLACEHOLDER]
+**What this mockup should show:**
+Three visible windows:
 
-**Mockup 7.1 — Apple Notes as Thinking Layer**
-
-Display:
-- Sidebar with Projects / Ideas / Library
-- Open project note
-- Scope section visible
-- Next Actions section showing contextual checkboxes
-- No due dates visible
-
-Purpose:
-Reinforce that Notes holds context, not scheduling.
-
----
+- A project note in Notes with a clearly identified “Next Action”
+- A matching task in Reminders (in the correct project list or Personal)
+- A calendar time block allocated to complete it
 
 # 3. Reminders — The Execution Engine
 
@@ -117,7 +109,7 @@ When inside a note and you identify a task:
 1. Highlight actionable sentence.
 2. Right-click.
 3. Share → Reminders.
-4. Choose project list (or Inbox).
+4. Choose project list (or Personal).
 5. Add.
 
 The reminder now contains:
@@ -128,21 +120,6 @@ The reminder now contains:
 You return to writing.
 
 The task is safe.
-
----
-
-## [UI MOCKUP PLACEHOLDER]
-
-**Mockup 7.2 — Share from Notes to Reminders**
-
-Display:
-- Highlighted text in note
-- Context menu open
-- “Share → Reminders” visible
-- Reminders list selection dialog
-
-Purpose:
-Show the exact handoff moment between thinking and execution.
 
 ---
 
@@ -187,20 +164,6 @@ Each layer holds its responsibility.
 
 ---
 
-## [UI MOCKUP PLACEHOLDER]
-
-**Mockup 7.3 — Calendar Event Linked to Note**
-
-Display:
-- Calendar event open
-- Notes field containing link to meeting note
-- Optional URL field showing Notes link
-
-Purpose:
-Visualize how meetings bridge time and thinking.
-
----
-
 # 5. The Closed Loop Model
 
 A task lifecycle inside VIRON looks like this:
@@ -218,27 +181,13 @@ Everything closes.
 
 ---
 
-## [UI MOCKUP PLACEHOLDER]
-
-**Mockup 7.4 — Task Lifecycle Diagram**
-
-Visual:
-Horizontal flow:
-
-Note → Reminder → Calendar → Complete → Review → Library (optional)
-
-Purpose:
-Show flow across apps without merging them.
-
----
-
 # 6. Storage Decision: Central vs Project Lists
 
 There are two viable task architectures.
 
 VIRON recommends:
 
-Project-based lists + one Inbox.
+Project-based lists + Personal.
 
 Structure:
 
@@ -259,17 +208,15 @@ clarity collapses.
 That is why VIRON caps active projects.
 
 ---
-
-# 7. Smart Folders in Apple Notes
-
-Yes — VIRON uses Smart Folders.
+# Preview: Tag-based Views (introduced in Chapter 11)
+Yes — VIRON uses Smart Folders (Chapter 11).
 
 But sparingly.
 
-Smart Folders are visibility tools,
+Smart Folders (Chapter 11) are visibility tools,
 not storage locations.
 
-Recommended Smart Folders:
+Recommended Smart Folders (Chapter 11):
 
 All #task  
 All #meeting  
@@ -281,20 +228,6 @@ These allow:
 
 Cross-project visibility
 Without reorganizing folders
-
----
-
-## [UI MOCKUP PLACEHOLDER]
-
-**Mockup 7.5 — Smart Folder Configuration**
-
-Display:
-- Smart Folder creation screen
-- Filter rule: Tag is #task
-- Resulting Smart Folder showing items from multiple projects
-
-Purpose:
-Show how tags create cross-project visibility.
 
 ---
 

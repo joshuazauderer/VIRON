@@ -1,5 +1,14 @@
 # Chapter 16 — Quiet Systems Endure
 
+### [UI MOCKUP (CH16-MU01): Calm System Snapshot]
+
+**What this mockup should show:**
+A calm “system snapshot” that visually communicates maturity:
+
+- Notes: 2–3 active projects, large Archive, organized Library
+- Reminders: a finite Today list (≤5) and clean project lists
+- Calendar: one meaningful Deep Work block with white space
+
 The goal was never productivity.
 
 The goal was quiet.

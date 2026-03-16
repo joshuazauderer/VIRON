@@ -1,0 +1,77 @@
+\documentclass[$if(fontsize)$fontsize$else$11pt$endif$,twoside,openany]{book}
+
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$endif$
+
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{etoolbox}
+\usepackage{emptypage}
+\usepackage{titling}
+\usepackage{hyperref}
+\hypersetup{
+  bookmarks=false,
+  hidelinks,
+  linktoc=none,
+  pdfcreator={},
+  pdfproducer={}
+}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{newunicodechar}
+\usepackage{chngcntr}
+\usepackage{adjustbox}
+
+% Suppress all heading numbers (sections, subsections, etc.)
+\setcounter{secnumdepth}{-2}
+
+% Compatibility shims for pandoc-generated commands
+% Redefine pandocbounded to scale images to text width
+\providecommand{\pandocbounded}[1]{%
+  \adjustbox{max width=0.92\textwidth}{#1}%
+}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+
+\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+
+$if(mainfont)$
+\setmainfont{$mainfont$}
+$endif$
+$if(sansfont)$
+\setsansfont{$sansfont$}
+$endif$
+$if(monofont)$
+\setmonofont{$monofont$}
+$endif$
+
+% Page header content — defined before config inputs so they can reference these values
+\newcommand{\bookTitle}{$if(title)$$title$$else$The VIRON Method$endif$}
+\newcommand{\bookAuthor}{$for(author)$$author$$endfor$}
+
+\input{config/fonts.tex}
+\input{config/page-layout.tex}
+\input{config/chapter-style.tex}
+\input{config/figure-style.tex}
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+\begin{document}
+
+\pagestyle{plain}
+\pagenumbering{roman}
+
+$body$
+
+\end{document}

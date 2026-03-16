@@ -1,0 +1,22 @@
+% Typography tuning
+
+\usepackage{microtype}
+
+% Fallback font for Unicode symbols (arrows, emoji) not in Palatino
+\usepackage{newunicodechar}
+\newfontfamily\symbolfont{Arial Unicode MS}[Scale=MatchLowercase]
+\newunicodechar{→}{\symbolfont →}
+\newunicodechar{🍎}{\symbolfont 🍎}
+\linespread{1.05}
+
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0em}
+
+% Allow pages to have flexible bottom whitespace (prevents stretching)
+\raggedbottom
+\emergencystretch=2em
+
+% Reduce rivers and improve spacing
+\pretolerance=1000
+\tolerance=2000
+\hbadness=2000

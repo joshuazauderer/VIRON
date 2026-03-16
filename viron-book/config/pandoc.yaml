@@ -1,0 +1,25 @@
+standalone: true
+
+variables:
+  lang: en-US
+  papersize: custom
+  geometry:
+    - paperwidth=6in
+    - paperheight=9in
+    - top=0.875in
+    - bottom=0.875in
+    - inner=1.0in
+    - outer=0.75in
+  documentclass: book
+  classoption:
+    - openany
+    - twoside
+  fontsize: 11pt
+  linestretch: 1.15
+  secnumdepth: -1
+  colorlinks: false
+  lot: false
+  lof: false
+  toc: false
+  tocdepth: 0
+  links-as-notes: false

@@ -1,0 +1,6 @@
+mainfont: "Palatino"
+sansfont: "Helvetica Neue"
+monofont: "Menlo"
+titlepage: false
+book: true
+fontsize: 11pt

@@ -1,0 +1,21 @@
+% Figure placement and caption styling
+
+% Default width: fill most of text column, preserve aspect ratio
+\setkeys{Gin}{width=0.92\textwidth,keepaspectratio}
+
+\captionsetup[figure]{
+  font=small,
+  labelfont=bf,
+  textfont=normalfont,
+  justification=raggedright,
+  singlelinecheck=false,
+  skip=8pt,
+  labelformat=empty,  % suppress "Figure N:" prefix; caption text carries its own label
+  listformat=empty    % suppress "Figure N" number from List of Figures entries
+}
+
+% Use sequential (non-chapter-prefixed) figure numbering
+\counterwithout{figure}{chapter}
+
+% Force figures to appear exactly at their location in text (no float deferral)
+\floatplacement{figure}{H}

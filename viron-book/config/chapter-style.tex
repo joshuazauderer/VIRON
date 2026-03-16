@@ -1,0 +1,33 @@
+% Chapter title styling
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\sffamily}
+  {\fontsize{12}{12}\selectfont\MakeUppercase{\chaptername\ \thechapter}}
+  {0.8em}
+  {\Huge}
+  []
+
+\titlespacing*{\chapter}
+  {0pt}
+  {0pt}
+  {2.2em}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily}
+  {}
+  {0em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily}
+  {}
+  {0em}
+  {}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\sffamily}
+  {}
+  {0em}
+  {}
+
+% Chapter opening top spacing handled via titlespacing

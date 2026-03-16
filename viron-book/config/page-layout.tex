@@ -1,0 +1,33 @@
+% Header / footer system
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% Alternating headers: book title (all caps) on even pages, chapter title on odd pages
+\fancyhead[LE]{\small\MakeUppercase{\bookTitle}}
+\fancyhead[RO]{\small\leftmark}
+
+% Page number centered in footer
+\fancyfoot[C]{\thepage}
+
+% No header or footer rules
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Chapter opening pages use plain style (no header, just page number)
+\makeatletter
+\patchcmd{\chapter}{plain}{plain}{}{}
+\makeatother
+
+% Paragraph spacing: no indent, consistent vertical gap between paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+% Widow / orphan control
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+% Hyphenation control
+\hyphenpenalty=700
+\exhyphenpenalty=700

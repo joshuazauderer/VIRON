@@ -1,0 +1,20 @@
+# Build artifacts
+temp/
+output/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# LaTeX scratch files
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.lof
+*.xdv
+
+# Cover PDF (tracked separately)
+*.pdf

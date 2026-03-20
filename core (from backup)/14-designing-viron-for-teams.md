@@ -106,14 +106,21 @@ VIRON rule still applies:
 If it is actionable, it must exist in execution layer.
 
 ---
-### [UI MOCKUP (CH14-MU01): Shared Project Folder]
 
-**What this mockup should show:**
-A shared Notes environment (or clearly labeled shared space) displaying:
+## [UI MOCKUP PLACEHOLDER]
 
-- The same canonical folders (Projects/Templates/Archive/Library) for the team space
-- Team project notes visible (bounded and readable)
-- No personal content mixed in
+**Mockup 14.1 — Shared Reminders List**
+
+Display:
+- Shared project list
+- Tasks with assigned owners
+- Due dates visible
+- Clear project grouping
+
+Purpose:
+Visualize team execution visibility.
+
+---
 
 # 5. Shared Knowledge Layer
 
@@ -142,6 +149,22 @@ Example structure:
 Every project should contribute distilled knowledge.
 
 This transforms experience into collective intelligence.
+
+---
+
+## [UI MOCKUP PLACEHOLDER]
+
+**Mockup 14.2 — Shared Team Library**
+
+Display:
+- Folder “Team Library”
+- Notes like:
+  - “Onboarding Drop-Off Pattern”
+  - “Release Scope Discipline Rule”
+  - “Client Escalation Protocol”
+
+Purpose:
+Show team-level second brain.
 
 ---
 

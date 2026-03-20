@@ -1,281 +1,89 @@
-# VIRON — UI Mockup Registry
-## Production Visual Governance Document
+    # VIRON — UI Mockup Registry (Production)
 
-This document governs all UI mockups used in the VIRON manuscript.
+This document defines every UI mockup required for the manuscript.
 
-It defines:
+Each mockup is referenced in its chapter using the format:
 
-1. Canonical application baselines
-2. Structural rules for visual consistency
-3. Chapter-specific deviations
-4. Production standards
-
-Mockups are architectural artifacts.
-
-They reinforce constraint, separation, and clarity.
-They are not decorative.
+[UI MOCKUP (CHXX-MUYY): Description]
 
 ---
 
-# Section I — Canonical Application Baselines
+## Chapter 01 — Introduction
 
-These baselines apply to all chapters unless explicitly expanded later (e.g., Chapter 11 for Smart Folders).
-
----
-
-# 🔒 Canonical Apple Notes Model
-
-## Sidebar Structure (Locked)
-
-The Apple Notes sidebar must show only:
-
-iCloud  
-• Projects  
-• Templates  
-• Archive  
-• Library  
-
-No additional top-level folders.
-
-Avoid showing:
-- Quick Notes
-- Recently Deleted
-- On My Mac
-- System clutter
-
-Crop if necessary.
+- CH01-MU01 — System Overview Conceptual Diagram
 
 ---
 
-## Projects Folder Rules
+## Chapter 02 — The Framework
 
-- Contains project notes only (not subfolders by default).
-- Maximum five active projects.
-- Each project is a single primary note.
-- Expansion allowed only under the Project Complexity Threshold Rule.
+- CH02-MU01 — Layer Separation Diagram
 
 ---
 
-## Templates Folder Rules
+## Chapter 03 — Note Architecture
 
-Templates are notes, not folders.
-
-Must include:
-
-- Project Template
-- Weekly Review Template
-- Strategy Template
-- Decision Log Template
+- CH03-MU01 — Notes Sidebar Folder Layout
+- CH03-MU02 — Idea Inbox Note Structure
+- CH03-MU03 — Projects Folder with 3 Active Projects
+- CH03-MU04 — Library Folder with Atomic Notes
+- CH03-MU05 — Notes Settings Configuration (iCloud + Disable “On My Mac”)
+- CH03-MU06 — Apple Intelligence ChatGPT Extension Enabled
 
 ---
 
-## Archive Folder Rules
+## Chapter 04 — Reminders
 
-- Contains completed project notes.
-- Must visibly grow in later chapters (13, 16).
-- Archive reinforces completion discipline.
-
----
-
-## Library Folder Rules
-
-- Contains refined, evergreen knowledge.
-- No task language.
-- No active planning.
-- Calm, minimal density.
+- CH04-MU01 — Clean Reminders List (Project-Aligned Tasks)
+- CH04-MU02 — Reminders Project-Specific Task View
 
 ---
 
-## Notes Visual Tone
+## Chapter 05 — Shortcuts
 
-Apple Notes must feel:
-
-- Flat
-- Bounded
-- Clean
-- Intentional
-
-Never:
-
-- Deeply nested
-- Folder-heavy
-- Cluttered
+- CH05-MU01 — Quick Capture Shortcut Flow
+- CH05-MU02 — Send to Reminders Shortcut
+- CH05-MU03 — Daily Planning Shortcut
+- CH05-MU04 — Weekly Reset Shortcut
+- CH05-MU05 — Shortcut Architecture Concept Diagram
 
 ---
 
-# 🔒 Canonical Reminders Model
+## Chapter 06 — Weekly Review
 
-## Sidebar Structure (Locked)
-
-Reminders must show:
-
-SYSTEM LISTS  
-• Today  
-• Scheduled  
-• All  
-• Completed  
-
-PROJECT LISTS  
-• VIRON Book Draft  
-• Client Strategy Refresh  
-• Personal Operating Doctrine  
-
-PERSONAL LIST  
-• Personal  
-
-No Inbox list.
-No duplicate systems.
-No additional unrelated lists.
+- CH06-MU01 — Weekly Review Structure Overview
 
 ---
 
-## Reminders Structural Rules
+## Chapter 07 — Unified Architecture
 
-- One authoritative task system.
-- Maximum five active project lists.
-- Personal list is permitted and encouraged.
-- Tasks never live in Notes.
+- CH07-MU01 — Unified Architecture Diagram (Capture → Execution → Calendar → Library)
 
 ---
 
-## Today View Rules
+## Chapter 08 — Library
 
-- Maximum five tasks visible.
-- No red overdue indicators (except Chapter 9 anti-example).
-- No clutter.
-- No expanded subtasks.
+- CH08-MU01 — Library Folder with Atomic Notes (Mature State)
 
 ---
 
-## Reminders Visual Tone
+## Chapter 09 — Failure Modes
 
-Reminders must feel:
-
-- Finite
-- Finishable
-- Calm
-- Deliberate
-
-Never:
-
-- Overloaded
-- Dense
-- Urgent (unless intentionally in Chapter 9)
+- CH09-MU01 — Failure Mode Example (Entropy View)
 
 ---
 
-# 🔒 Canonical Calendar Model
+## Chapter 13 — Maturity Model
 
-## View Selection
-
-Use Day view (preferred) or clean Week view.
-
-Do not use:
-- Month view
-- List view
-- Dense meeting walls
+- CH13-MU01 — Maturity Model Progression Diagram
 
 ---
 
-## Event Density Rules
+## Chapter 14 — Teams
 
-Calendar must show:
-
-- 1–3 meaningful time blocks
-- Visible white space
-- No overlapping chaos
-
-Example canonical day:
-
-9:00 AM – 11:00 AM  Deep Work — Project  
-12:30 PM – 1:00 PM  Lunch  
-3:00 PM – 3:30 PM   Weekly Review  
+- CH14-MU01 — VIRON Adapted for Teams
 
 ---
 
-## Calendar Philosophy
+## Chapter 15 — 90-Day Implementation Blueprint
 
-Calendar holds time commitments.
-It does not hold tasks.
-
-Time must appear intentional, not reactive.
-
----
-
-# Section II — Project Complexity Threshold Rule
-
-A project may expand beyond a single note only when:
-
-1. The primary note becomes difficult to scan (~2,000–3,000 words).
-2. Clearly separable sub-components emerge.
-3. Weekly review clarity degrades due to note density.
-
-Expansion must preserve:
-
-- One visible parent project.
-- Flat discoverability.
-- Minimal nesting (no deep hierarchies).
-
-Constraint remains default.
-Expansion remains exception.
-
----
-
-# Section III — Chapter-Based Deviations
-
-| Chapter | Allowed Deviation |
-|----------|------------------|
-| CH09 | Intentional overload (anti-examples) |
-| CH11 | Introduction of Smart Folders |
-| CH14 | Shared structures for teams |
-
-All other chapters must adhere to canonical baselines.
-
----
-
-# Section IV — Visual Production Standards
-
-## Window Width
-
-All screenshots:
-1200px width fixed  
-Height may vary naturally
-
----
-
-## Styling
-
-- Light mode only
-- No personal data
-- No personal Apple ID
-- No notification banners
-- No desktop clutter
-- No inconsistent scaling
-
----
-
-## Content Consistency
-
-Use consistent fictional names:
-
-Projects:
-- VIRON Book Draft
-- Client Strategy Refresh
-- Personal Operating Doctrine
-
-Avoid introducing new project names mid-book unless narratively required.
-
----
-
-# Governance Rule
-
-If a mockup does not reinforce architectural clarity,
-it should not be included.
-
-Restraint preserves authority.
-
-Visual density must remain proportional to instructional need.
-
----
-
-End of Document.
+- CH15-MU01 — 90-Day Implementation Roadmap

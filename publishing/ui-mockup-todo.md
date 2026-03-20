@@ -1,0 +1,24 @@
+# VIRON — UI Mockup Creation TODO
+
+- [ ] CH01-MU01 — System Overview Conceptual Diagram
+- [ ] CH02-MU01 — Layer Separation Diagram
+- [ ] CH03-MU01 — Notes Sidebar Folder Layout
+- [ ] CH03-MU02 — Idea Inbox Note Structure
+- [ ] CH03-MU03 — Projects Folder with 3 Active Projects
+- [ ] CH03-MU04 — Library Folder with Atomic Notes
+- [ ] CH03-MU05 — Notes Settings Configuration
+- [ ] CH03-MU06 — Apple Intelligence ChatGPT Extension Enabled
+- [ ] CH04-MU01 — Clean Reminders List
+- [ ] CH04-MU02 — Reminders Project-Specific Task View
+- [ ] CH05-MU01 — Quick Capture Shortcut Flow
+- [ ] CH05-MU02 — Send to Reminders Shortcut
+- [ ] CH05-MU03 — Daily Planning Shortcut
+- [ ] CH05-MU04 — Weekly Reset Shortcut
+- [ ] CH05-MU05 — Shortcut Architecture Concept Diagram
+- [ ] CH06-MU01 — Weekly Review Structure Overview
+- [ ] CH07-MU01 — Unified Architecture Diagram
+- [ ] CH08-MU01 — Library Folder (Mature State)
+- [ ] CH09-MU01 — Failure Mode Example
+- [ ] CH13-MU01 — Maturity Model Diagram
+- [ ] CH14-MU01 — Team Adaptation Diagram
+- [ ] CH15-MU01 — 90-Day Roadmap

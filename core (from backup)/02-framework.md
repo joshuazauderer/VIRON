@@ -1,5 +1,8 @@
 # Chapter 2 — The Framework Beneath the Tools
 
+_Architectural Role:_ This chapter clarifies the VIRON model as introduced in Chapter 1 and expands its structural logic without reintroducing its foundational argument.
+
+
 Before we talk about folders, shortcuts, or task lists, we need to talk about structure.
 
 Not digital structure.

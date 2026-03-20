@@ -1,5 +1,8 @@
 # Chapter 6 — A Week Using VIRON
 
+_Architectural Role:_ This chapter illustrates applied behavior of the system over time. It demonstrates rather than redefines structure.
+
+
 Systems are easier to understand in motion.
 
 So instead of adding another diagram or rule,
@@ -26,15 +29,6 @@ Monday begins not with urgency,
 but with reduction.
 
 You open Reminders → Today.
-
-### [UI MOCKUP (CH06-MU01): Project Note + Matching Reminder List]
-
-**What this mockup should show:**
-Two windows visible:
-
-- A project note open in Notes (showing Objective and Decisions)
-- The corresponding project list open in Reminders
-- Clear conceptual alignment between thinking and tasks
 
 There are twelve available tasks.
 You choose five.
@@ -171,16 +165,6 @@ Momentum preserved.
 ---
 
 ## Friday — The Weekly Review
-
-### [UI MOCKUP (CH06-MU02): Weekly Review Session View]
-
-**What this mockup should show:**
-Notes and Reminders visible simultaneously:
-
-- A project moved to Archive
-- Completed tasks cleared
-- Only active projects remaining
-- Clean, uncluttered state
 
 You trigger Start Weekly Review.
 

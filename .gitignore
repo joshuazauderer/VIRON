@@ -16,3 +16,15 @@ drafts/
 # --- Temporary/export junk (keep your exports folder if you use it intentionally) ---
 *.tmp
 *.bak
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
+*secret*
+.npmrc
+.netrc
